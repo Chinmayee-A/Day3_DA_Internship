@@ -10,7 +10,7 @@ The project showcases my analysis on sakila database. I have applied the followi
 5. VIEWS
 6. INDEXES
 7. NESTED SUBQUERIES
-What did i do?
+--What did i do?
 1. Filtered data using WHERE, ORDER BY, GROUP BY
 2. Performed JOINS: INNER JOIN, LEFT JOIN, RIGHT JOIN
 3. Used aggregate functions (AVG, COUNT)
