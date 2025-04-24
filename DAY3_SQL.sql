@@ -80,3 +80,13 @@ FROM rental
 WHERE rental.rental_date>'2005-07-01';
 
 SELECT * FROM customer_rentals;
+
+-- Films not rented
+SELECT * FROM film;
+SELECT film_id, title, release_year, language_id 
+FROM film
+WHERE film_id NOT IN (
+    SELECT DISTINCT inventory.film_id
+    FROM rental
+    JOIN inventory ON rental.inventory_id = inventory.inventory_id
+);
