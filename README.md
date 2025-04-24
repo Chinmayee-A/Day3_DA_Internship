@@ -1,5 +1,5 @@
 # Day3_DA_Internship
-Link for Sakila Database: https://dev.mysql.com/doc/sakila/en/
+Link for Sakila Database: https://dev.mysql.com/doc/sakila/en/  
 Project: Data Analysis using Sakila Database (MYSQL)
 Technologies used: SQL(MYSQL), MYSQL WORKBENCH, Sakila Database
 Details of the project: 
